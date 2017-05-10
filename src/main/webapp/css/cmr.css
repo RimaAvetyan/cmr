@@ -8,3 +8,114 @@ and open the template in the editor.
     Author     : rima
 */
 
+
+
+
+.odstep {
+    height: 50px;
+}
+
+.mojodstep{ 
+    height: 20px;
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+ font-family: 'Lato', sans-serif;;
+    font-size:20px;
+    margin: 0 !important;
+    
+}
+.wrapper {
+    width: 100%;
+    
+}
+
+.header{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.logo {
+    /*width: 200px;*/
+    font-size: 30px;
+    color: blue;
+   text-align: center;
+}
+.nav{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0f36d5;
+    text-align: center;
+    border-top: 2px solid #08c;
+    border-bottom: 2px solid #08c;
+    
+}
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    background-color: blue;
+    padding: 30px;
+    
+}
+
+.sticky{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a{
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+}
+ol > li{
+    float: left;
+    width: 150px;
+    height: 40px;
+}
+ol > li:hover{
+    background-color: #1737b8;
+}
+ol > li:hover > a{
+    color:#0b0b0b;
+}
+ol > li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+} 
+ol > li:hover > ul{
+    display: block;
+}
+ol > li > ul > li {
+    background-color: green;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed #0b0b0b;
+}
+
+
+ 

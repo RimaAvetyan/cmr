@@ -85,7 +85,7 @@ ol{
 }
 
 ol a{
-    color:#ffffff;
+    color:whitesmoke;
     text-decoration: none;
     display: block;
 }
@@ -95,10 +95,10 @@ ol > li{
     height: 40px;
 }
 ol > li:hover{
-    background-color: #1737b8;
+    background-color: cornflowerblue;
 }
 ol > li:hover > a{
-    color:#0b0b0b;
+    color:#01148c;
 }
 ol > li > ul{
     list-style-type: none;
@@ -109,14 +109,44 @@ ol > li > ul{
 } 
 ol > li:hover > ul{
     display: block;
+   
 }
 ol > li > ul > li {
-    background-color: green;
+    background-color: blue;
     position: relative;
     z-index: 100;
-    border-top: 1px dashed #0b0b0b;
+/*    border-top: 1px dashed #0b0b0b;*/
+}
+
+
+#kontak{
+ margin-left: 15px;
+ margin-top: 20px;
+}
+#erspodstawy{
+   line-height: 2;
+   text-align: center;
+   padding: 25px;
+}
+#erskomunikat{
+    padding: 25px;
+    text-align: center;
+    
+}
+#ersrealizacja{
+   padding: 25px;
+    line-height: 1,6;
 }
 
 #rys3{
+    float: right;
+    width: 20%;
+    
+}
+#rys1{
+    float: left;
+    width: 20%;
+}
+#rys2{
     
 }

@@ -97,9 +97,9 @@ ol > li{
 ol > li:hover{
     background-color: cornflowerblue;
 }
-ol > li:hover > a{
+/*ol > li:hover > a{
     color:#01148c;
-}
+}*/
 ol > li > ul{
     list-style-type: none;
     padding: 0;

@@ -1,23 +1,25 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html" 
+      xmlns:f="http://xmlns.jcp.org/jsf/core" 
+      xmlns:p="http://primefaces.org/ui" 
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets" 
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
     <head>
-        <title>TODO supply a title</title>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="../css/cmr.css" rel="stylesheet" type="text/css"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>cmr.gov.pl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <!-- Bootstrap core CSS -->
         <link href="bootjq/boot337/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="bootjq/jq321/jquery-3.2.1.js" type="text/javascript"></script>
         <script src="bootjq/boot337/js/bootstrap.min.js" type="text/javascript"></script>
-
+        <link href="../css/cmr.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
 
@@ -29,56 +31,14 @@ and open the template in the editor.
 
 
 
-            <div class="header">
+            
 
-                <div class="logo">
 
-                    DEPARTAMENT RYBOŁÓWSTWA
-                    <br />WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA
-                </div>
-
-            </div>
+  <ui:include src="../menu.xhtml" />
 
 
 
-
-
-            <div class="nav">
-                <ol>
-                    <li><a href="#">Strona główna</a></li>
-
-                    <li><a href="/cmr/kontakt/kontakt.html">Kontakt</a></li>
-                    <li><a href="#">Instrukcje</a>
-                        <ul>
-                            <li><a href="ogolnehtml.html">Ogólne</a></li>
-                            <li> <a href="instAktualvCatch.html">vCatch</a></li>
-                            <li> <a href="dziennikelektroniczny.html">Dziennik</a></li>
-                            <li><a href="Instrukcje/inne.html">Inne</a></li>
-
-                        </ul>
-                    </li>
-
-                    <li><a href="#">ERS informacje</a>
-                        <ul>
-                            <li> <a href="ERSinfo/podstawaprawna.html">Podstawy prawne</a></li>
-                            <li><a href="ERSinfo/komunikatERS.html">Komunikat</a></li>
-                            <li><a href="ERSinfo/realizacjaERS.html/realizacjaERS.html">Realizacja</a></li>
-
-                        </ul>
-
-                    </li>
-                    <li> <a href="#">EEZ</a>
-                        <ul>
-                            <li> <a href="StrefyEEZ/EEZ.html">Strefy EEZ</a></li>
-                        </ul>
-                    <li>
-                        <a href="https://ers.cmr.gov.pl/ERS/">Nowy SIRM</a></li>
-
-<!--                    <li><a href="#">Ogłoszenia</a></li>-->
-
-                </ol>
-
-            </div>
+         
             <h3>
                 <p style="color: blue">Wypełnianie dziennika elektronicznego</p>
             </h3>
@@ -89,8 +49,8 @@ and open the template in the editor.
                     vCatch - prezentacja ze szkolenia(2013-05-17) <br />
                     <li><a href="../plikiCmr/ices_squares.JPG" alt="mapki" target="_blanck"><b>Obszary FAO, Prostokąty ICES</b></a> - mapki </li>
                     <li><a href="../plikiCmr/pno.pdf" target="_blanck"><b>PNO - widok okna</b></a> </li>
-                    <li> <a href="../plikiCmr/Dziennik polowowy - szablon.xls" ><b>Szablon dziennika połowowego wypełnianego w przypadku awarii dziennika elektronicznego</b></a> </il>
-                    </li><a href="../plikiCmr/Schemat wypelniania - kapitan.pdf" target="_blanck"><b>Schemat wypełniania <q>Listy kapitanów statku</q> w aplikacji vCatch</b></a> </il>
+                    <li> <a href="../plikiCmr/Dziennik polowowy - szablon.xls" ><b>Szablon dziennika połowowego wypełnianego w przypadku awarii dziennika elektronicznego</b></a> </li>
+                    <li><a href="../plikiCmr/Schemat wypelniania - kapitan.pdf" target="_blanck"><b>Schemat wypełniania <q>Listy kapitanów statku</q> w aplikacji vCatch</b></a> </li>
                 </blockquote>
             </ul>
             <p><b>Instrukcje wypełniania:</b> </p>
@@ -105,7 +65,7 @@ and open the template in the editor.
                     <li> <a href="../plikiCmr/Przelot.pdf" target="_blanck"><b>Przelot/testy silnika</b></a></li>
                 </blockquote>
             </ul>
-            <div class="footer">DEPARTAMENT RYBOŁÓWSTWA<br /> WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA &copy; 2017</div>
+            <div class="footer">DEPARTAMENT RYBOŁÓWSTWA<br /> WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA 2017</div>
         </div>
         <script src="bootjq/jq321/jquery-3.2.1.js" type="text/javascript"></script>
         <script src="bootjq/boot337/js/bootstrap.min.js" type="text/javascript"></script>

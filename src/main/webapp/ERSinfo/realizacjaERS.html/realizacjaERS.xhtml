@@ -1,83 +1,40 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html" 
+      xmlns:f="http://xmlns.jcp.org/jsf/core" 
+      xmlns:p="http://primefaces.org/ui" 
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets" 
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
     <head>
-        <title>Realizacja</title>
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../css/cmr.css" rel="stylesheet" type="text/css"/>
-        
-         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>cmr.gov.pl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <!-- Bootstrap core CSS -->
         <link href="bootjq/boot337/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="bootjq/jq321/jquery-3.2.1.js" type="text/javascript"></script>
         <script src="bootjq/boot337/js/bootstrap.min.js" type="text/javascript"></script>
-        
-        
+        <link href="../../css/cmr.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="wrapper">
-            
-            
-            
-            <div class="header">
-               
-                <div class="logo">
-
-                    DEPARTAMENT RYBOŁÓWSTWA
-                    <br />WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA
-                </div>
-
-            </div>
-            
-            
-            
-            
-            
-            <div class="nav">
-                <ol>
-                    <li><a href="#">Strona główna</a></li>
-                    
-                    <li><a href="/cmr/kontakt/kontakt.html">Kontakt</a></li>
-                    <li><a href="#">Instrukcje</a>
-                        <ul>
-                            <li><a href="/cmr/Instrukcje/ogolnehtml.html">Ogólne</a></li>
-                            <li> <a href="Instrukcje/instAktualvCatch.html">vCatch</a></li>
-                            <li> <a href="Instrukcje/dziennikelektroniczny.html">Dziennik</a></li>
-                            <li><a href="Instrukcje/inne.html">Inne</a></li>
-                            
-                        </ul>
-                    </li>
-                    
-                    <li><a href="#">ERS informacje</a>
-                        <ul>
-                            <li> <a href="ERSinfo/podstawaprawna.html">Podstawy prawne</a></li>
-                            <li><a href="ERSinfo/komunikatERS.html">Komunikat</a></li>
-                            <li><a href="ERSinfo/realizacjaERS.html/realizacjaERS.html">Realizacja</a></li>
-                            
-                        </ul>
-                        
-                    </li>
-                    <li> <a href="#">EEZ</a>
-                        <ul>
-                            <li> <a href="StrefyEEZ/EEZ.html">Strefy EEZ</a></li>
-                        </ul>
-                    <li>
-                           <a href="https://ers.cmr.gov.pl/ERS/">Nowy SIRM</a></li>
-                   
-<!--                    <li><a href="#">Ogłoszenia</a></li>-->
-
-                </ol>
-
-            </div>
-
         
-        <div id="ersrealizacja">
+            
+             <div class="wrapper">
+            
+
+            <ui:include src="../../menu.xhtml" />
+
+
+            <div class="content">
+            
+            
+        
+<!--        <div id="ersrealizacja">-->
         <h3 style="color: blue"> Realizacja:</h3>
 
         <p>      W dniu 6 września 2010 r. rozstrzygnięty został przetarg na zakup oprogramowania umożliwiającego
@@ -120,12 +77,12 @@ and open the template in the editor.
             zapewnienia elektronicznego monitorowania pozycji jednostek rybackich oraz funkcjonowania systemu elektronicznej rejestracji 
             i elektronicznego raportowania działalności połowowej. Termin realizacji 9 grudnia 2011r.</p>
 
-</p>
     </div>
-            <div class="footer">DEPARTAMENT RYBOŁÓWSTWA<br /> WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA &copy; 2017</div>
+            <div class="footer">DEPARTAMENT RYBOŁÓWSTWA<br /> WYDZIAŁ CENTRUM MONITOROWANIA RYBOŁÓWSTWA 2017</div>
             
             
         </div>
         <script src="bootjq/jq321/jquery-3.2.1.js" type="text/javascript"></script>
         <script src="bootjq/boot337/js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
 </html>

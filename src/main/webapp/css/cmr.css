@@ -8,9 +8,6 @@ and open the template in the editor.
     Author     : rima
 */
 
-
-
-
 .odstep {
     height: 50px;
 }
@@ -22,14 +19,14 @@ and open the template in the editor.
 body{
     background-color: whitesmoke;
     color: black;
- font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;;
     font-size:20px;
     margin: 0 !important;
-    
+
 }
 .wrapper {
     width: 100%;
-    
+
 }
 
 .header{
@@ -41,7 +38,7 @@ body{
     /*width: 200px;*/
     font-size: 30px;
     color: blue;
-   text-align: center;
+    text-align: center;
 }
 .nav{
     width: 100%;
@@ -61,10 +58,10 @@ body{
 }
 
 .footer{
-    text-align: center;
-    background-color: green;
-    padding: 30px;
-    
+    text-align: left;
+    background-color: goldenrod;
+    color: brown;
+    /*padding: 30px;*/
 }
 
 .sticky{
@@ -85,7 +82,7 @@ ol{
 }
 
 ol a{
-    color:whitesmoke;
+    /*    color:whitesmoke;*/
     text-decoration: none;
     display: block;
 }
@@ -109,39 +106,39 @@ ol > li > ul{
 } 
 ol > li:hover > ul{
     display: block;
-   
+
 }
 ol > li > ul > li {
-    background-color: blue;
+    /*    background-color: blue;*/
     position: relative;
     z-index: 100;
-/*    border-top: 1px dashed #0b0b0b;*/
+    /*    border-top: 1px dashed #0b0b0b;*/
 }
 
 
 #kontak{
- margin-left: 15px;
- margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
 }
 #erspodstawy{
-   line-height: 2;
-/*   text-align: center;*/
-   padding: 25px;
+    line-height: 2;
+    /*   text-align: center;*/
+    padding: 25px;
 }
 #erskomunikat{
     padding: 25px;
-/*    text-align: center;*/
-    
+    /*    text-align: center;*/
+
 }
 #ersrealizacja{
-   padding: 25px;
-    line-height: 1,6;
+    padding: 25px;
+    line-height: 1.6;
 }
 
 #rys3{
     float: right;
     width: 20%;
-    
+
 }
 #rys1{
     float: left;
